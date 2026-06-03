@@ -1,7 +1,7 @@
 const {test, expect} = require('@playwright/test');
 const {LoginPage} = require('../pages/login.page');
 const {DashboardPage} = require('../pages/dashboard.page');
-const {FindTransactionsPage} = require('../pages/findtransactions.page');
+const {FindTransactionsPage} = require('../pages/findTransactions.page');
 
 test('Find Transactions', async ({page, context}) => {
     const findTransactions = new FindTransactionsPage(page);
