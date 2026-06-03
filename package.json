@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:all": "npx playwright test tests/register.spec.js && npx playwright test tests/account.spec.js tests/billpay.spec.js tests/findtransactions.spec.js tests/fundtransfer.spec.js tests/loan.spec.js tests/login.spec.js tests/profile.spec.js"
+    "test:all": "npx playwright test tests/register.spec.js && npx playwright test tests/account.spec.js tests/billpay.spec.js tests/findTransactions.spec.js tests/fundtransfer.spec.js tests/loan.spec.js tests/login.spec.js tests/profile.spec.js"
   },
   "keywords": [],
   "author": "",
